@@ -9,7 +9,20 @@ const Home = () => {
       {/* <Header /> */}
       {/* <Footer /> */}
       <div className="accordions">
-        <Equipements title="Titre 1" content="contenu" />
+        <Equipements
+          title="Equipements"
+          content={
+            <ul>
+              <li>Climatisation</li>
+              <li>Wi-Fi</li>
+              <li>Cuisine</li>
+              <li>Espace de travail</li>
+              <li>Fer à repasser</li>
+              <li>Sèche-cheveux</li>
+              <li>Cintres</li>
+            </ul>
+          }
+        />
       </div>
     </div>
   );
