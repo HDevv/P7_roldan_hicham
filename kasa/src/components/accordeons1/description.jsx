@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import "../equipements/equipements.css";
+import "../accordeons1/description.css";
 
 function Equipements({ title, content }) {
   const [active, setActive] = useState(false);

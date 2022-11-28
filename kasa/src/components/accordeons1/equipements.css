@@ -1,5 +1,10 @@
 .accordions {
   border: 1px solid #eee;
+  width: 43%;
+}
+
+.accordion false {
+  color: #ff6060;
 }
 
 .accordion__title {
@@ -8,6 +13,7 @@
   justify-content: space-between;
   padding: 1rem;
   color: #ffffff;
+  background-color: #ff6060;
 
   border-radius: 5px;
 }
@@ -22,7 +28,7 @@
   position: relative;
   width: 10px;
   height: 1px;
-  background: #333;
+  background: #ffffff;
 }
 
 .accordion__icon::before {
@@ -30,13 +36,13 @@
   content: "";
   width: 10px;
   height: 1px;
-  background: #333;
+  background: #ffffff;
   transform: rotate(90deg);
   transition: all 0.2s;
 }
 
 .active .accordion__icon::before {
-  transform: rotate(0deg);
+  transform: rotate(-90deg);
   opacity: 0;
 }
 
@@ -61,6 +67,7 @@
   list-style-type: none;
   display: flex;
   align-items: flex-start;
+  color: #ff6060;
 }
 
 .accordion__content ul {
