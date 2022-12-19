@@ -2,6 +2,7 @@ import React from "react";
 import Header from "../../components/header/header";
 import Footer from "../../components/footer/footer";
 import Banner from "../../components/banner/banner";
+import Card from "../../components/cards/cards";
 import BannerHomeImg from "../../assets/Bg_banner_home.png";
 
 const Home = () => {
@@ -38,7 +39,8 @@ const Home = () => {
         />
       </div> */}
 
-      <Banner src={BannerHomeImg} title={"Chez vous, partout et ailleurs"} />
+      {/* <Banner src={BannerHomeImg} title={"Chez vous, partout et ailleurs"} /> */}
+      <Card />
     </div>
   );
 };
