@@ -40,7 +40,7 @@ const Home = () => {
       </div> */}
 
       {/* <Banner src={BannerHomeImg} title={"Chez vous, partout et ailleurs"} /> */}
-      <Card />
+      {/* <Card /> */}
     </div>
   );
 };
