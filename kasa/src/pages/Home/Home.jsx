@@ -1,6 +1,5 @@
 import React from "react";
-import Header from "../../components/header/header";
-import Footer from "../../components/footer/footer";
+
 import Banner from "../../components/banner/banner";
 import Card from "../../components/cards/cards";
 import BannerHomeImg from "../../assets/Bg_banner_home.png";
@@ -8,9 +7,15 @@ import BannerHomeImg from "../../assets/Bg_banner_home.png";
 const Home = () => {
   return (
     <div className="Home">
-      {/* <Header /> */}
-      {/* <Footer /> */}
-      {/* <div className="accordions">
+      <Banner src={BannerHomeImg} title={"Chez vous, partout et ailleurs"} />
+      <Card />
+    </div>
+  );
+};
+
+export default Home;
+{
+  /* <div className="accordions">
         <Equipements
           title="Equipements"
           content={
@@ -37,12 +42,5 @@ const Home = () => {
             </p>
           }
         />
-      </div> */}
-
-      {/* <Banner src={BannerHomeImg} title={"Chez vous, partout et ailleurs"} /> */}
-      {/* <Card /> */}
-    </div>
-  );
-};
-
-export default Home;
+      </div> */
+}
