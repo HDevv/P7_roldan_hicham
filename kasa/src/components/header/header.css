@@ -1,58 +1,93 @@
-/* * {
-  background: #e5e5e5;
-} */
-
 .header {
-  position: absolute;
-  width: 1240px;
-  height: 68px;
-  left: 100px;
-  top: 40px;
+  margin: 2rem 4rem 0 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-
-/* ----------------- KASA --------------*/
-
-/* ACCUEIL ET A PROPOS */
-
+.logo {
+  width: 17%;
+  height: 5%;
+}
+.nav {
+  width: 29%;
+  display: flex;
+  column-gap: 5%;
+}
 .accueil {
-  position: absolute;
-  left: 75.08%;
-  right: 13.95%;
-  top: 25%;
-  bottom: 25%;
-
+  width: 48%;
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 500;
-  font-size: 24px;
+  font-size: 20px;
   line-height: 142.6%;
-  /* or 34px */
-
   display: flex;
   align-items: flex-end;
-  text-align: right;
-  text-decoration-line: underline;
-
+  text-align: center;
+  text-decoration-line: none;
   color: #ff6060;
+  justify-content: center;
+}
+.accueil:hover {
+  text-decoration-line: underline;
+}
+.a_propos {
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
+  color: #ff6060;
+  width: fit-content;
+  text-decoration-line: none;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 142.6%;
+  justify-content: center;
+}
+.a_propos:hover {
+  text-decoration-line: underline;
 }
 
-.a_propos {
-  position: absolute;
-  left: 90.65%;
-  right: 0%;
-  top: 25%;
-  bottom: 25%;
+@media (max-width: 480px) {
+  .header {
+    margin: 1rem 2rem 0 2rem;
+  }
+  .logo {
+    width: 46.7%;
+    height: 10%;
+  }
+  .nav {
+    width: 50%;
+  }
+  .accueil {
+    font-size: 12px;
+  }
+  .a_propos {
+    font-size: 12px;
+  }
+}
 
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 142.6%;
-  /* or 34px */
+@media (min-width: 481px) and (max-width: 768px) {
+  .header {
+    margin: 1rem 2rem 0 2rem;
+  }
+  .logo {
+    width: 26.7%;
+    height: 8%;
+  }
+  .nav {
+    width: 40%;
+  }
+  .accueil {
+    font-size: 16px;
+  }
+  .a_propos {
+    font-size: 16px;
+  }
+}
 
-  display: flex;
-  align-items: flex-end;
-  text-align: right;
-
-  color: #ff6060;
+@media (min-width: 1440px) {
+  .header {
+    margin: 1rem 4rem 0 4rem;
+  }
 }
