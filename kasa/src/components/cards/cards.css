@@ -5,7 +5,8 @@
   border-radius: 25px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 10px 7em;
+  gap: 10px 70px;
+  align-content: center;
 }
 .card {
   width: 340px;
