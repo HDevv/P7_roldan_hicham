@@ -9,11 +9,13 @@ function Equipements({ title, content }) {
     setActive(!active);
   };
   return (
-    <div className={`accordion ${active && "active"}`}>
-      <div className="accordion__title" onClick={handleToggle}>
-        {title} <span className="accordion__icon"></span>
+    <div className="accordions_container">
+      <div className={`accordion ${active && "active"}`}>
+        <div className="accordion__title" onClick={handleToggle}>
+          {title} <span className="accordion__icon"></span>
+        </div>
+        <div className="accordion__content">{content}</div>
       </div>
-      <div className="accordion__content">{content}</div>
     </div>
   );
 }

@@ -1,11 +1,12 @@
 import React from "react";
+import "../about/about.css";
 import Banner from "../../components/banner/banner";
 import BgAbout from "../../assets/bg_banner_about.png";
 import Accordion2 from "../../components/accordeons2/accordeons2";
 
 const about = () => {
   return (
-    <div>
+    <div className="container">
       <Banner src={BgAbout} alt="Paysage montagnard" />
       <div className="accordions">
         <Accordion2

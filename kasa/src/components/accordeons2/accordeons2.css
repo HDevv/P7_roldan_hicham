@@ -61,16 +61,5 @@
   overflow: visible;
   padding: 1rem;
   opacity: 1;
-}
-
-.accordion__content p {
-  list-style-type: none;
-  display: flex;
-  align-items: flex-start;
   color: #ff6060;
-  text-align: left;
-}
-
-.accordion__content ul {
-  margin: 0;
 }
