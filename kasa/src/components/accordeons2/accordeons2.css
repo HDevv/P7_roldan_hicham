@@ -1,6 +1,6 @@
 .accordions {
   border: 1px solid #eee;
-  width: 43%;
+  width: 70%;
 }
 
 .accordion false {
@@ -8,13 +8,10 @@
 }
 
 .accordion__title {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
   padding: 1rem;
   color: #ffffff;
   background-color: #ff6060;
-
+  display: flex;
   border-radius: 5px;
 }
 
@@ -29,6 +26,7 @@
   width: 10px;
   height: 1px;
   background: #ffffff;
+  margin-left: auto;
 }
 
 .accordion__icon::before {
