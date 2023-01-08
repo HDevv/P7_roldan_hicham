@@ -15,7 +15,6 @@
 }
 .accueil {
   width: 48%;
-  font-family: "Montserrat";
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -23,9 +22,11 @@
   display: flex;
   align-items: flex-end;
   text-align: center;
-  text-decoration-line: none;
   color: #ff6060;
   justify-content: center;
+}
+.accueil a {
+  font-weight: 500;
 }
 .accueil:hover {
   text-decoration-line: underline;
@@ -37,7 +38,6 @@
   color: #ff6060;
   width: fit-content;
   text-decoration-line: none;
-  font-family: "Montserrat";
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
