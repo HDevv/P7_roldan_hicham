@@ -1,24 +1,9 @@
 .accordions {
   margin: auto;
   padding-bottom: 20px;
-}
-
-.container {
-  justify-content: center;
+  display: flex;
   flex-direction: column;
-  position: relative;
-}
-.acc1 {
-  margin-bottom: 100px;
-  border-color: #ffffff;
-}
-.acc2 {
-  margin-bottom: 100px;
-  border-color: #ffffff;
-}
-.acc3 {
-  margin-bottom: 100px;
-  border-color: #ffffff;
+  align-items: center;
 }
 
 @media (min-width: 551px) and (max-width: 1020px) {
