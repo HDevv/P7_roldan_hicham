@@ -1,11 +1,12 @@
+import React from "react";
 import "./App.css";
 import { Routes, Route } from "react-router-dom";
 import About from "./pages/about/about";
 import Home from "./pages/Home/Home";
-import Data from "../data.json";
+import Logements from "./pages/logements/logement.jsx";
 import Error from "./pages/404/404";
 
-// Routing
+// Routing Logic
 
 function App() {
   return (
@@ -13,9 +14,9 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
-        {/* <Route path="/data/:id" element={<Data />} /> */}
+        <Route path="/logements/:id" element={<Logements />} />
         <Route path="/*" element={<Error />} />
-        <Route path="/data/*" element={<Error />} />
+        <Route path="/logements/*" element={<Error />} />
       </Routes>
     </div>
   );
