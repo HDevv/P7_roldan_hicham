@@ -7,7 +7,7 @@ function Card() {
   const [lodgings] = useState(Logements);
 
   return (
-    <div className="cards_BG">
+    <div className="cards_bg">
       {lodgings.map((lodging) => (
         <Link to={`/logements/${lodging.id}`} key={lodging.id}>
           <div key={lodging.id} className="card">
