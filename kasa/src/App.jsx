@@ -3,7 +3,7 @@ import "./App.css";
 import { Routes, Route } from "react-router-dom";
 import About from "./pages/about/about";
 import Home from "./pages/Home/Home";
-import Logements from "./pages/logements/logement.jsx";
+import Logements from "./pages/logements/logement";
 import Error from "./pages/404/404";
 
 // Routing Logic

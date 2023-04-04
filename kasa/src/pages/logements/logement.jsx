@@ -7,7 +7,6 @@ import emptyStar from "../../assets/empty-star.png";
 import Accordion from "../../components/accordion/accordion";
 import "../logements/logement.css";
 
-
 const Logements = () => {
   let { id } = useParams();
   const stars = [1, 2, 3, 4, 5];
@@ -27,7 +26,7 @@ const Logements = () => {
               </div>
 
               <div>
-                <ul className="logementsTags">
+                <ul className="logementTags">
                   {logement.tags.map((tag) => (
                     <li className="logementTagItem" key={tag + logement.id}>
                       {tag}
@@ -37,7 +36,7 @@ const Logements = () => {
               </div>
             </article>
 
-            <article className="logementsInfos2">
+            <article className="logementInfos2">
               <div>
                 <div className="hostInfos">
                   <p>{logement.host.name}</p>
