@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+
 <h1>KASA</h1>
 <hr><p>Application de location immobilière avec REACT</p><h2>Technologies Used</h2>
 <hr><ul>
@@ -24,3 +26,4 @@
 <li>npm run dev</li>
 </ul><h2>Contact</h2>
 <hr><p><span style="margin-right: 30px;"></span><a href="https://www.linkedin.com/in/hicham-roldan-152a051b6/"><img target="_blank" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" style="width: 10%;"></a><span style="margin-right: 30px;"></span><a href="https://github.com/Hicham017"><img target="_blank" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" style="width: 10%;"></a></p>
+=======
