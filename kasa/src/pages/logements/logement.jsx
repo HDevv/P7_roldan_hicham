@@ -22,7 +22,9 @@ const Logements = () => {
             <article className="logementInfos">
               <div className="locationInfos">
                 <h1 key="{logement.title}">{logement.title}</h1>
-                <p key="{logement.location}">{logement.location}</p>
+                <p className="city" key="{logement.location}">
+                  {logement.location}
+                </p>
               </div>
 
               <div>

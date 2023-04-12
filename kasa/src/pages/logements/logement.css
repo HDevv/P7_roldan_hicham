@@ -48,6 +48,10 @@
   margin-bottom: 5px;
 }
 
+.city {
+  margin-left: -42%;
+}
+
 .locationInfos:has(p) {
   margin-top: 5px;
   color: #ff6060;
