@@ -75,7 +75,7 @@ const Logements = () => {
 
             <Accordion
               key={logement.equipments + logement.id}
-              title="Equipments"
+              title="Equipements"
               content={logement.equipments.map((infos, index) => (
                 <li key={`${logement.equipments}-${index}`}>{infos}</li>
               ))}

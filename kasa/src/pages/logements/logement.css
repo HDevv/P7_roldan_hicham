@@ -35,6 +35,9 @@
   flex-direction: column;
   gap: 35px;
 }
+.logementInfos2 img {
+  margin-right: 4px;
+}
 
 .locationInfos {
   width: 60%;
@@ -49,7 +52,7 @@
 }
 
 .city {
-  margin-left: -42%;
+  margin-left: auto;
 }
 
 .locationInfos:has(p) {
@@ -94,10 +97,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 10px;
+  border-radius: 14px;
   width: 135px;
-  height: 44px;
-  font-size: 16px;
+  height: 34px;
+  font-size: 14px;
   font-weight: 500;
 }
 
@@ -152,7 +155,7 @@
     border-radius: 10px;
     width: 86px;
     height: 34px;
-    font-size: 10px;
+    font-size: 14px;
     font-weight: 500;
   }
   .logementInfos2 {

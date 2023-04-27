@@ -31,3 +31,9 @@
 
   color: #ffffff;
 }
+
+@media (min-width: 820px) and (max-width: 1948px) {
+  .footer {
+    width: 110%;
+  }
+}
