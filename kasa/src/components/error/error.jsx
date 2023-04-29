@@ -7,7 +7,7 @@ const error = () => {
   return (
     <div className="err">
       <h1 className="notfound">404</h1>
-      <div className="txt">Oups! La page que vous demendez n'existe pas.</div>
+      <p className="txt2">Oups! La page que vous demandez n'existe pas.</p>
       <Link to="/" className="go_back">
         Reourner sur la page d'acceuil
       </Link>

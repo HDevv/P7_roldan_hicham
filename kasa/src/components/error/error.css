@@ -2,30 +2,28 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 2rem 4rem 2rem 4rem;
+  margin: 2rem 0rem 2rem 4rem;
 }
 .notfound {
   font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 230px;
-  line-height: 142.6%;
+  font-style: bold;
+  font-weight: 900;
+  font-size: 288px;
   color: #ff6060;
 }
-.txt {
-  margin: 2rem 2rem 8rem 2rem;
+.txt2 {
+  margin: -3rem 2rem 8rem 2rem;
   font-family: "Montserrat";
   font-style: normal;
-  font-weight: 500;
-  font-size: 32px;
-  line-height: 142.6%;
+  font-weight: 900;
+  font-size: 36px;
   color: #ff6060;
 }
 .go_back {
   margin-bottom: 8rem;
   font-family: "Montserrat";
   font-style: normal;
-  font-weight: 500;
+  font-weight: 700;
   font-size: 18px;
   line-height: 142.6%;
   text-decoration-line: underline;
