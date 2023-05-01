@@ -1,12 +1,10 @@
 import React, { useState } from "react";
-import { useParams } from "react-router-dom";
 import leftArrow from "../../assets/left-arrow.svg";
 import rightArrow from "../../assets/right-arrow.png";
 import "../diapo/diapo.css";
 import PropTypes from "prop-types";
 
 export default function Slideshow({ slides }) {
-  const params = useParams();
   const [currentIndex, setcurrentIndex] = useState(0);
 
   const goToNext = (length) => {
