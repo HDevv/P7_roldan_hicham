@@ -62,12 +62,11 @@
   height: auto;
 }
 
-@media (min-width: 780px) {
+@media (max-width: 844px) {
   .slider {
-    width: 90%;
-    height: 476px;
-    position: relative;
-    margin: 40px 0 0 0;
+    width: 40%;
+    height: auto;
+    margin: 40px 0 0 -400px;
     display: flex;
     justify-content: center;
   }
