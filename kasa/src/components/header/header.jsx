@@ -1,15 +1,9 @@
-import React, { useState } from "react";
+import React from "react";
 import "../header/header.css";
 import Logo from "../../assets/Logo.svg";
 import { NavLink, Link } from "react-router-dom";
 
 const header = () => {
-  const [underlined, setUnderlined] = useState(false);
-
-  const handleClick = () => {
-    setUnderlined(true);
-  };
-
   return (
     <header className="header">
       <Link to="/">
@@ -17,18 +11,10 @@ const header = () => {
       </Link>
 
       <nav className="nav">
-        <NavLink
-          to="/"
-          className={underlined ? "accueil" : ""}
-          onClick={handleClick}
-        >
+        <NavLink to="/" className="accueil">
           Accueil
         </NavLink>
-        <NavLink
-          to="/about"
-          className={underlined ? "a_propos" : ""}
-          onClick={handleClick}
-        >
+        <NavLink to="/about" className="a_propos">
           A propos
         </NavLink>
       </nav>

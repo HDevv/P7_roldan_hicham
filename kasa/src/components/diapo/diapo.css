@@ -14,11 +14,19 @@
   justify-content: center;
 }
 .logementImg {
-  width: 150%;
-  height: auto;
+  display: flex;
+  justify-content: center; /* Centre horizontalement */
+  align-items: center; /* Centre verticalement */
+  height: 600px; /* Définir une hauteur pour le conteneur */
+  width: 112rem;
   border-radius: 12px;
   background-position: center;
   background-size: cover;
+}
+
+.slide.active img {
+  max-width: 100%; /* Empêcher l'image de déborder du conteneur */
+  max-height: 100%; /* Empêcher l'image de déborder du conteneur */
 }
 .right_arrow {
   position: absolute;
@@ -43,6 +51,7 @@
   user-select: none;
   width: 6%;
   height: auto;
+  object-fit: cover;
 }
 
 .slide.active {
