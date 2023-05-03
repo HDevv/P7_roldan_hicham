@@ -1,17 +1,34 @@
-import React from "react";
+import React, { useState } from "react";
 import "../header/header.css";
 import Logo from "../../assets/Logo.svg";
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 
 const header = () => {
+  const [underlined, setUnderlined] = useState(false);
+
+  const handleClick = () => {
+    setUnderlined(true);
+  };
+
   return (
     <header className="header">
-      <img src={Logo} alt="Logo Kasa" className="logo" />
+      <Link to="/">
+        <img className="logo" src={Logo} alt="Logo Kasa" />
+      </Link>
+
       <nav className="nav">
-        <NavLink to="/" className="accueil">
+        <NavLink
+          to="/"
+          className={underlined ? "accueil" : ""}
+          onClick={handleClick}
+        >
           Accueil
         </NavLink>
-        <NavLink to="/about" className="a_propos">
+        <NavLink
+          to="/about"
+          className={underlined ? "a_propos" : ""}
+          onClick={handleClick}
+        >
           A propos
         </NavLink>
       </nav>

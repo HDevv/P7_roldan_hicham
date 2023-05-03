@@ -5,19 +5,20 @@
   align-items: center;
 }
 .logo {
-  width: 17%;
+  width: 157%;
   height: 5%;
 }
 .nav {
   width: 29%;
   display: flex;
   column-gap: 5%;
+  margin-right: -10rem;
 }
 .accueil {
   width: 48%;
   font-style: normal;
   font-weight: 500;
-  font-size: 26px;
+  font-size: 29px;
   line-height: 142.6%;
   display: flex;
   align-items: flex-end;
@@ -28,7 +29,7 @@
 .accueil a {
   font-weight: 500;
 }
-.accueil:hover {
+.accueil a:hover {
   text-decoration-line: underline;
 }
 .a_propos {
@@ -40,11 +41,15 @@
   text-decoration-line: none;
   font-style: normal;
   font-weight: 500;
-  font-size: 26px;
+  font-size: 29px;
   line-height: 142.6%;
   justify-content: center;
 }
 .a_propos:hover {
+  text-decoration-line: underline;
+}
+
+.a_propos:clicked {
   text-decoration-line: underline;
 }
 
