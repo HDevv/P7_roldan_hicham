@@ -6,7 +6,7 @@
 }
 
 .logo {
-  width: 157%;
+  width: 117%;
   height: 5%;
 }
 .header {
@@ -33,24 +33,19 @@
     }
   }
 }
-.nav {
-  width: 29%;
-  display: flex;
-  column-gap: 5%;
-  margin-right: -10rem;
-}
 
 .accueil {
   width: 48%;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 29px;
   line-height: 142.6%;
   display: flex;
   align-items: flex-end;
   text-align: center;
   color: #ff6060;
-  justify-content: center;
+  justify-content: end;
+  margin-right: 3rem;
 }
 .accueil a {
   font-weight: 500;
@@ -65,7 +60,7 @@
   color: #ff6060;
   width: fit-content;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 29px;
   line-height: 142.6%;
   justify-content: center;
@@ -73,14 +68,12 @@
 .a_propos:hover {
   text-decoration-line: underline;
 }
-.a_propos a:active {
-  text-decoration-line: underline;
-}
 
 @media (max-width: 844px) {
   .header {
     margin-right: -10px;
     width: fit-content;
+    align-items: center;
   }
   .logo img {
     width: 48%;
@@ -91,7 +84,6 @@
   }
   .accueil {
     margin-right: 20px;
-    font-size: 8px;
   }
 }
 
@@ -121,10 +113,7 @@
   .header {
     margin: 1rem 2rem 0 2rem;
   }
-  .logo {
-    width: 26.7%;
-    height: 8%;
-  }
+
   .nav {
     width: 40%;
   }
@@ -136,8 +125,13 @@
   }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1020px) {
   .header {
-    margin: 1rem 4rem 0 4rem;
+    margin: auto;
+    width: 92%;
+    height: auto;
+  }
+  .img {
+    margin: auto;
   }
 }

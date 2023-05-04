@@ -21,7 +21,7 @@ const Logements = () => {
             <article className="logementInfos">
               <div className="locationInfos">
                 <h1 key={logement.title}>{logement.title}</h1>
-                <p className="city" key="{logement.location}">
+                <p className="city" key={logement.location}>
                   {logement.location}
                 </p>
               </div>

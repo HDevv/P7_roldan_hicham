@@ -1,11 +1,6 @@
 .container {
-  margin: 0 auto;
-  max-width: 1400px;
-  height: 200%;
-  width: 200%;
-  position: relative;
+  margin: auto;
   display: flex;
-  justify-content: center;
   flex-direction: column;
   align-items: center;
 }
@@ -28,6 +23,7 @@
   align-items: flex-start;
   padding: 5px 0px 0px 0px;
   flex-direction: column;
+  margin-top: -1rem;
 }
 .logementInfos2 {
   font-size: 30px;
@@ -46,22 +42,17 @@
 }
 .locationInfos > h1 {
   font-weight: 500;
-  font-size: 30px;
   color: #ff6060;
   width: fit-content;
   margin-top: 5px;
   margin-bottom: 5px;
 }
 
-.city {
-  margin-left: auto;
-}
-
 .locationInfos:has(p) {
-  margin-top: 5px;
+  margin: 5px;
   color: #ff6060;
   font-weight: 500;
-  font-size: 22px;
+  font-size: 32px;
 }
 
 .hostInfos {
@@ -72,9 +63,10 @@
 
 .hostInfos:has(p) {
   font-weight: 500;
-  font-size: 22px;
+  font-size: 32px;
   color: #ff6060;
-  margin: 23px 20px 0px 0px;
+  margin: auto;
+  padding: auto;
 }
 
 .hostPicture {
@@ -212,7 +204,7 @@
 @media (min-width: 1088px) {
   .locationInfos > h1 {
     font-weight: 500;
-    font-size: 30px;
+    font-size: 50px;
     color: #ff6060;
     width: max-content;
     margin-top: 5px;

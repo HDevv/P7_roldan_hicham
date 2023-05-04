@@ -1,15 +1,6 @@
-.container {
-  height: 100%;
-  width: 200%;
-  position: relative;
-  display: flex;
-  justify-content: center;
-}
-
 .slider {
-  width: 90%;
   position: relative;
-  margin: 40px 0 0 0;
+  margin-top: 5rem;
   display: flex;
   justify-content: center;
 }
@@ -17,11 +8,9 @@
   display: flex;
   justify-content: center; /* Centre horizontalement */
   align-items: center; /* Centre verticalement */
-  height: 600px; /* Définir une hauteur pour le conteneur */
-  width: 112rem;
+  height: 760px; /* Définir une hauteur pour le conteneur */
+  width: 154rem;
   border-radius: 12px;
-  background-position: center;
-  background-size: cover;
 }
 
 .slide.active img {
@@ -32,31 +21,28 @@
   position: absolute;
   bottom: 40%;
   right: 4%;
-  font-size: 3rem;
   color: #000;
   z-index: 10;
   cursor: pointer;
   user-select: none;
-  width: 6%;
+  width: 4%;
   height: auto;
 }
 .left_arrow {
   position: absolute;
   bottom: 40%;
   left: 4%;
-  font-size: 3rem;
   color: #000;
   z-index: 10;
   cursor: pointer;
   user-select: none;
-  width: 6%;
+  width: 4%;
   height: auto;
   object-fit: cover;
 }
 
 .slide.active {
   opacity: 1;
-
   display: flex;
   justify-content: center;
 }
