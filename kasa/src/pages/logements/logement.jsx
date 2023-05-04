@@ -17,11 +17,10 @@ const Logements = () => {
       {logement ? (
         <div className="container">
           <Diapo key={logement.pictures} slides={logement.pictures} />
-
-          <section key="{logement.id}" className="cardInfos">
+          <section key={logement.id} className="cardInfos">
             <article className="logementInfos">
               <div className="locationInfos">
-                <h1 key="{logement.title}">{logement.title}</h1>
+                <h1 key={logement.title}>{logement.title}</h1>
                 <p className="city" key="{logement.location}">
                   {logement.location}
                 </p>
