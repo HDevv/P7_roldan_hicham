@@ -41,7 +41,7 @@
   width: 60%;
 }
 .locationInfos > h1 {
-  font-weight: 500;
+  font-weight: 400;
   color: #ff6060;
   width: fit-content;
   margin-top: 5px;
@@ -70,6 +70,7 @@
 }
 
 .hostPicture {
+  margin: auto;
   width: 70px;
   height: 70px;
   border-radius: 50%;
@@ -92,10 +93,10 @@
   justify-content: center;
   align-items: center;
   border-radius: 14px;
-  width: 135px;
-  height: 34px;
-  font-size: 14px;
-  font-weight: 500;
+  width: 195px;
+  height: 40px;
+  font-size: 19px;
+  font-weight: 400;
 }
 
 .starsList {
@@ -103,7 +104,8 @@
 }
 
 .star {
-  width: 30px;
+  width: 35px;
+  padding-right: 8px;
   height: auto;
 }
 
@@ -113,6 +115,7 @@
   gap: 15px;
   margin: 0;
   width: 100%;
+
   padding-bottom: 300px;
   flex-direction: row;
   align-items: flex-start;
@@ -127,6 +130,10 @@
 }
 
 @media (max-width: 844px) {
+  .container {
+    margin: auto;
+    width: 145%;
+  }
   .cardInfos {
     display: flex;
     flex-direction: column;
@@ -136,8 +143,8 @@
     display: flex;
     text-align: center;
     margin-top: 20px;
-    padding-left: 0;
-    gap: 2px;
+    width: 150%;
+    gap: 20px;
   }
   .logementTags > .logementTagItem {
     margin: 15px 2px 0px 0px;
@@ -157,6 +164,7 @@
     display: flex;
     flex-direction: column;
     margin-top: auto;
+    margin-left: 25%;
   }
   .hostInfos:has(p) {
     font-weight: 500;
@@ -170,9 +178,9 @@
     border-radius: 50%;
   }
   .star {
-    width: 15px;
-    margin-top: -18px;
+    width: 30%;
     height: auto;
+    margin-left: auto;
   }
   .locationInfos:has(p) {
     color: #ff6060;
@@ -192,12 +200,10 @@
     display: flex;
     flex-direction: column;
     justify-content: baseline;
-    margin-left: 60px;
+    margin-left: 60%;
+    margin-top: 6rem;
     gap: 20px;
-  }
-  .accordeon {
-    width: 45% !important;
-    margin-left: -20px;
+    width: 150%;
   }
 }
 

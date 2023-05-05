@@ -67,12 +67,14 @@ const Logements = () => {
 
           <div className="accordions accordions_">
             <Accordion
+              className="accordion_lgt"
               title="Description"
               key={logement.description}
               content={logement.description}
             />
 
             <Accordion
+              className="accordion_lgt"
               key={logement.equipments + logement.id}
               title="Equipements"
               content={logement.equipments.map((infos, index) => (

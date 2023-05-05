@@ -61,7 +61,7 @@
   .slider {
     width: 55%;
     height: auto;
-    margin: 40px 0 0 -320px;
+    margin-left: -30%;
     display: flex;
     justify-content: center;
   }
