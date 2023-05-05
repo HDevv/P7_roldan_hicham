@@ -4,7 +4,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 2rem 0rem 2rem 4rem;
+  position: relative;
 }
 h2 {
   font-family: "Montserrat", sans-serif;
@@ -12,14 +12,12 @@ h2 {
   font-size: 288px;
   font-weight: 900;
   color: #ff6060;
+  margin-top: auto;
 }
 .txt2 {
-  margin: -3rem 2rem 8rem 2rem;
-  text-shadow: #ff6060;
-  font-family: "Montserrat" bold;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 56px;
+  margin: -10rem 2rem 8rem 2rem;
+  font-family: "Montserrat" 400;
+  font-size: 36px;
   color: #ff6060;
 }
 .go_back {

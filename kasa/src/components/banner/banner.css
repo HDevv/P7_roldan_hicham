@@ -18,8 +18,9 @@
   opacity: 0.6;
 }
 .banner_title {
+  font-family: "Montserrat" bold;
   position: absolute;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 48px;
   line-height: 150%;
   /* or 68px */
