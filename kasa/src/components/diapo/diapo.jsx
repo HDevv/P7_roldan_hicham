@@ -40,10 +40,12 @@ export default function Slideshow({ slides }) {
           <img src={slides[currentIndex]} className="logementImg" />
         </article>
 
-        {slides.length > 0 && (
+        {slides.length > 1 ? (
           <p className="slide_rooms">
             {`${currentIndex + 1}`}/{`${slides.length}`}{" "}
           </p>
+        ) : (
+          ""
         )}
       </section>
     </>
