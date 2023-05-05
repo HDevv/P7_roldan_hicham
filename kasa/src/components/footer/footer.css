@@ -1,6 +1,5 @@
 .footer {
-  position: relative;
-  width: auto;
+  width: 1440px;
   height: 15rem;
   background: #000000;
   display: flex;
@@ -17,7 +16,6 @@
 /* ----------------- TXT --------------*/
 
 .txt {
-  position: absolute;
   margin: auto;
   top: 64.11%;
 
@@ -29,16 +27,4 @@
   /* or 34px */
 
   color: #ffffff;
-}
-
-@media (max-width: 844px) {
-  .footer {
-    width: 100%;
-  }
-}
-
-@media (min-width: 820px) and (max-width: 1948px) {
-  .footer {
-    width: 110%;
-  }
 }

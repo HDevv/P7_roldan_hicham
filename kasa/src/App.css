@@ -8,11 +8,12 @@ body {
 
 #root {
   margin: auto;
+  max-width: 1240px;
 }
 
 .logo {
-  height: 6em;
   padding: 1.5em;
+  padding-left: 0;
   will-change: filter;
 }
 .logo:hover {

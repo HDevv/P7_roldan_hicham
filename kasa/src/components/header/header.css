@@ -1,18 +1,6 @@
 .header {
-  margin: 2rem 4rem 0 4rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.logo {
-  width: 117%;
-  height: 5%;
-}
-.header {
   display: flex;
   align-items: center;
-  padding: 0 2rem;
   color: #ff6060;
   font-weight: 700;
   gap: 2rem;
@@ -33,12 +21,11 @@
     }
   }
 }
-
 .accueil {
   width: 48%;
   font-style: normal;
   font-weight: 400;
-  font-size: 29px;
+  font-size: 24px;
   line-height: 142.6%;
   display: flex;
   align-items: flex-end;
@@ -61,7 +48,7 @@
   width: fit-content;
   font-style: normal;
   font-weight: 400;
-  font-size: 29px;
+  font-size: 24px;
   line-height: 142.6%;
   justify-content: center;
 }
@@ -70,17 +57,11 @@
 }
 
 @media (max-width: 844px) {
-  .header {
-    margin-right: -10px;
-    width: fit-content;
-    align-items: center;
-  }
   .logo img {
     width: 48%;
   }
   .nav {
     width: 30px;
-    margin-left: -80px;
   }
   .accueil {
     margin-right: 20px;
@@ -88,9 +69,6 @@
 }
 
 @media (max-width: 480px) {
-  .header {
-    margin: 1rem 0 0 2rem;
-  }
   .logo {
     width: 86.7%;
     height: 10%;
@@ -110,10 +88,6 @@
 }
 
 @media (min-width: 481px) and (max-width: 768px) {
-  .header {
-    margin: 1rem 2rem 0 2rem;
-  }
-
   .nav {
     width: 40%;
   }
@@ -128,7 +102,6 @@
 @media (min-width: 1020px) {
   .header {
     margin: auto;
-    width: 92%;
     height: auto;
   }
   .img {
