@@ -4,9 +4,11 @@
 
 body {
   margin: 0;
+  display: flex;
+  flex-direction: column;
 }
 
-#root {
+#root:not(.footer) {
   margin: auto;
   max-width: 1240px;
 }

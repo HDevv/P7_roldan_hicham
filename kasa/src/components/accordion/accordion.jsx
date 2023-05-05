@@ -10,7 +10,7 @@ function Accordion({ title, content }) {
   return isActive ? (
     <div className="accordeon">
       <div className="accordeon_header" onClick={() => setIsActive(false)}>
-        <h2>{title}</h2>
+        <h3>{title}</h3>
         <img src={chevron} className="icone_ouverte" alt="arrow open" />
       </div>
       <div className="accordeon_content">
@@ -20,7 +20,7 @@ function Accordion({ title, content }) {
   ) : (
     <div className="accordeon">
       <div className="accordeon_header" onClick={() => setIsActive(true)}>
-        <h2>{title}</h2>
+        <h3>{title}</h3>
         <img src={chevron} className="icone" alt="arrow closed" />
       </div>
       <div className="accordeon_content_hidden" aria-hidden="true">

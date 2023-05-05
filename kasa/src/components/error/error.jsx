@@ -6,7 +6,7 @@ import React from "react";
 const error = () => {
   return (
     <div className="err">
-      <h1 className="notfound">404</h1>
+      <h2 className="notfound">404</h2>
       <div className="txt2">Oups! La page que vous demandez n'existe pas.</div>
       <Link to="/" className="go_back">
         Retourner sur la page d'acceuil

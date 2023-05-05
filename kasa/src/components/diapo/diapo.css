@@ -8,8 +8,8 @@
   display: flex;
   justify-content: center; /* Centre horizontalement */
   align-items: center; /* Centre verticalement */
-  height: 760px; /* Définir une hauteur pour le conteneur */
-  width: 154rem;
+  height: 415px; /* Définir une hauteur pour le conteneur */
+  width: 1240px;
   border-radius: 12px;
 }
 

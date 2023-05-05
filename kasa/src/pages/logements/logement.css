@@ -9,8 +9,8 @@
 }
 .cardInfos {
   display: flex;
-  padding: 0px 6px;
-  width: 87%;
+
+  width: 100%;
   padding-top: 3%;
   flex-direction: row;
   justify-content: space-between;
@@ -21,34 +21,29 @@
   display: flex;
   justify-content: space-around;
   align-items: flex-start;
-  padding: 5px 0px 0px 0px;
+
   flex-direction: column;
-  margin-top: -1rem;
 }
 .logementInfos2 {
   font-size: 30px;
   display: flex;
   align-items: flex-start;
-  padding: 5px 0px 0px 0px;
   flex-direction: column;
-  gap: 35px;
+  gap: 25px;
 }
 .logementInfos2 img {
   margin-right: 4px;
 }
 
-.locationInfos {
-  width: 60%;
-}
 .locationInfos > h1 {
   color: #ff6060;
   width: fit-content;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin: auto;
+  font-size: 36px;
+  font-weight: 500;
 }
 
 .locationInfos:has(p) {
-  margin: 5px;
   color: #ff6060;
   font-weight: 500;
   font-size: 32px;
@@ -58,28 +53,27 @@
   display: flex;
   align-content: center;
   gap: 10px;
+  margin-left: 50px;
 }
 
 .hostInfos:has(p) {
   font-weight: 500;
-  font-size: 32px;
+  font-size: 18px;
   color: #ff6060;
-  margin: auto;
-  padding: auto;
 }
 
 .hostPicture {
-  margin: auto;
   width: 70px;
   height: 70px;
   border-radius: 50%;
+  justify-content: end;
 }
 
 .logementTags {
   display: flex;
   text-align: center;
   flex-wrap: wrap;
-  margin-top: 20px;
+  margin-top: -10px;
   padding-left: 0;
 }
 
@@ -111,10 +105,9 @@
 .accordions_ {
   justify-content: space-evenly;
   display: flex;
-  gap: 15px;
+  gap: 50px;
   margin: 0;
   width: 100%;
-
   padding-bottom: 300px;
   flex-direction: row;
   align-items: flex-start;
@@ -202,26 +195,10 @@
     margin-left: 60%;
     margin-top: 6rem;
     gap: 20px;
-    width: 150%;
+    width: 140%;
   }
 }
 
-@media (min-width: 1088px) {
-  .locationInfos > h1 {
-    font-weight: 500;
-    font-size: 50px;
-    color: #ff6060;
-    width: max-content;
-    margin-top: 5px;
-    margin-bottom: 5px;
-  }
-}
-
-@media (min-width: 551px) {
-  .accordeon {
-    width: 40% !important;
-  }
-}
 html,
 body {
   margin: 0;
