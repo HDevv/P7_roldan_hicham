@@ -29,7 +29,7 @@
 
 @media (max-width: 844px) {
   .banner {
-    width: 90%;
+    width: 80%;
     height: 111px;
     margin: auto;
     margin-top: 3rem;
@@ -67,5 +67,12 @@
     width: 55%;
     font-family: "Montserrat" bold;
     line-height: normal;
+  }
+}
+@media (828px <= width <= 1300px) {
+  .banner {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 2rem;
   }
 }

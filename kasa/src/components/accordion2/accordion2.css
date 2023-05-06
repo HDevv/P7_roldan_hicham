@@ -51,7 +51,7 @@
   flex-direction: column;
   margin: auto;
   margin-left: -25px;
-  width: 90%m;
+  width: 90%;
   padding-top: 8px;
   padding-bottom: 1rem;
   font-size: 17px;
@@ -75,6 +75,11 @@
 @media (max-width: 840px) {
   .accordeon2 {
     margin-top: 4rem;
+    width: 30rem;
+    margin-left: -2%;
+  }
+  .accordeon2_content {
+    width: 60rem;
   }
 }
 
@@ -104,8 +109,32 @@
   }
 }
 
-@media (828px <= width <= 1020px) {
-  .accordeon2 {
+@media (600px <= width <= 1260px) {
+  .accordeon2_header {
     width: auto;
+  }
+
+  .accordeon2_content {
+    width: auto;
+  }
+
+  .accordions2 {
+    margin: auto;
+    padding-left: 10rem;
+  }
+}
+@media (840px <= width <= 1260px) {
+  .accordions2 {
+    margin: auto;
+    padding: 0 9rem 0 2rem;
+  }
+}
+
+@media (500px <= width <= 800px) {
+  .accordions2 {
+    width: auto;
+    margin: auto;
+    padding-left: 5rem;
+    padding-right: 5rem;
   }
 }
