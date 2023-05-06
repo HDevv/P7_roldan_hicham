@@ -66,3 +66,10 @@
     justify-content: center;
   }
 }
+
+@media (max-width: 500px) {
+  .slider {
+    width: 335px;
+    height: 255px;
+  }
+}

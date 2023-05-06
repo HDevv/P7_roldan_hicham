@@ -48,3 +48,8 @@
     font-size: 12px;
   }
 }
+@media (max-width: 844px) {
+  .footer {
+    width: auto;
+  }
+}
