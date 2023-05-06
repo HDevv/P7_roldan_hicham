@@ -233,6 +233,7 @@
   .logementInfos2 {
     display: flex;
     flex-direction: row;
+    margin-left: 10rem;
   }
   .starsList {
     margin-left: -380px;
@@ -241,10 +242,12 @@
   }
   .hostInfos {
     margin-top: -20px;
-    margin-right: 10px;
+    margin-right: 15px;
   }
-  .hostinfos p {
+  .hostInfos p {
     font-size: 12px;
+    margin-right: 15px;
+    margin-top: 15px;
   }
   .cardInfos {
     margin-bottom: -30px;

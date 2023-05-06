@@ -52,7 +52,7 @@
 
 @media (max-width: 500px) {
   .banner {
-    margin: auto;
+    width: 10px;
     margin-left: 8%;
   }
   .hero {
