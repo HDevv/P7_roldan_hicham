@@ -1,5 +1,6 @@
 body {
   overflow-x: hidden;
+  margin: auto;
 }
 
 .accordions {
@@ -15,7 +16,7 @@ body {
 
 @media (min-width: 551px) and (max-width: 1020px) {
   .accordeon {
-    width: 55% !important;
+    width: 55%;
   }
 }
 

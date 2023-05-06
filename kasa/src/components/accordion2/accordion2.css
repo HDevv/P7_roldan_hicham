@@ -85,5 +85,27 @@
   }
   .accordeon2_header {
     width: 20rem;
+    height: 2.5rem;
+  }
+  .accordeon2_header h3 {
+    font-size: 13px;
+  }
+  .accordeon2_header img {
+    width: 15px;
+  }
+  .accordeon2_content {
+    font-size: 12px;
+    width: 19.5rem;
+    border-radius: 5px;
+    line-height: normal;
+  }
+  .accordeon2_content ul {
+    font-size: 12px;
+  }
+}
+
+@media (828px <= width <= 1020px) {
+  .accordeon2 {
+    width: auto;
   }
 }
