@@ -72,12 +72,18 @@
   list-style: none !important;
 }
 
+@media (max-width: 840px) {
+  .accordeon2 {
+    margin-top: 4rem;
+  }
+}
+
 @media (max-width: 500px) {
   .accordeon2 {
     margin-top: 2rem;
+    margin-left: 10%;
   }
   .accordeon2_header {
     width: 20rem;
-    margin: auto;
   }
 }
