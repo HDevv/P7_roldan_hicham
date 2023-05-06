@@ -36,7 +36,6 @@
   bottom: 0;
   position: absolute;
   width: 310px;
-  padding-top: 22rem;
   overflow-wrap: break-word;
   font-family: "Montserrat" sans-serif;
   font-style: normal;
@@ -46,48 +45,28 @@
   color: #ffffff;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 844px) {
   .cards_bg {
+    background-color: #ffffff;
+    width: 70%;
     margin: auto;
-    padding: 1rem 0rem 0 0rem;
-    row-gap: 10px;
-    display: flex;
-    flex-direction: column;
+    grid-template-columns: 1fr;
   }
   .card {
-    width: 100%;
-    height: 255px;
-    margin: auto;
-    margin-bottom: 80px;
-  }
-  .card_img {
-    margin: auto;
-    width: 320px;
-    height: 320px;
+    width: 335px;
+    height: 225px;
+    border-radius: 10px;
+    position: relative;
+    margin-bottom: auto;
   }
   .title {
-    width: 240px;
-    padding-left: 0.5rem;
-    padding-top: 12.8rem;
-  }
-  a {
-    width: 90%;
+    width: auto;
+    padding-left: 1rem;
   }
 }
 
-@media (min-width: 390px) and (max-width: 844px) {
+@media (max-width: 500px) {
   .cards_bg {
-    margin-left: auto;
-    grid-template-columns: 1fr;
-    overflow: hidden;
-  }
-  .card {
-    width: 300px;
-    height: 255px;
-  }
-  .title {
-    width: 240px;
-    padding-left: 0.5rem;
-    padding-top: 12.8rem;
+    margin: 1.5rem;
   }
 }

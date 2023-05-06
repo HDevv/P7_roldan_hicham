@@ -27,35 +27,44 @@
   color: #ffffff;
 }
 
-@media (min-width: 481px) and (max-width: 830px) {
+@media (max-width: 844px) {
+  .banner {
+    width: 90%;
+    height: 111px;
+    margin: auto;
+    margin-top: 3rem;
+    border-radius: 10px;
+  }
   .hero {
     display: flex;
     justify-content: flex-start;
-    align-items: center;
     border-radius: 10px;
   }
   .img {
+    width: 100%;
     border-radius: 10px;
   }
   .banner_title {
-    font-size: 30px;
-    width: 60%;
+    font-size: 24px;
+    width: 5%;
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 500px) {
+  .banner {
+    margin: auto;
+  }
   .hero {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    border-radius: 10px;
+    width: 335px;
   }
   .img {
-    border-radius: 10px;
+    height: 111px;
   }
   .banner_title {
-    width: 60%;
-    padding-left: 60px;
-    align-items: center;
+    margin-left: 1rem;
+    font-size: 24px;
+    width: 55%;
+    font-family: "Montserrat" bold;
+    line-height: normal;
   }
 }

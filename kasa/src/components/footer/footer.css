@@ -33,3 +33,18 @@
 
   color: #ffffff;
 }
+
+@media (max-width: 844px) {
+  .footer {
+    width: 93%;
+  }
+  .footer_logo {
+    margin-top: auto;
+    width: 20%;
+    justify-content: center;
+  }
+  .txt {
+    width: 80%;
+    font-size: 12px;
+  }
+}
