@@ -64,6 +64,9 @@
   .logo img {
     width: 38%;
   }
+  .logo {
+    padding-left: 1rem;
+  }
   .nav {
     width: 30px;
   }
@@ -90,5 +93,11 @@
     justify-content: center;
     margin-right: 4rem;
     white-space: nowrap;
+  }
+}
+
+@media (max-width: 1240px) {
+  .logo {
+    padding-left: 1rem;
   }
 }
