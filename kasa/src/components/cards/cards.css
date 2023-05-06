@@ -68,7 +68,7 @@
 
 @media (max-width: 500px) {
   .cards_bg {
-    margin: 1.5rem;
+    margin: 2rem;
   }
 }
 @media (840px <= width <= 1250px) {
