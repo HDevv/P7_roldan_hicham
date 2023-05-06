@@ -61,7 +61,7 @@
   .slider {
     width: 55%;
     height: auto;
-    margin-left: -30%;
+
     display: flex;
     justify-content: center;
   }
@@ -71,5 +71,7 @@
   .slider {
     width: 335px;
     height: 255px;
+    margin: auto;
+    margin-left: 6%;
   }
 }

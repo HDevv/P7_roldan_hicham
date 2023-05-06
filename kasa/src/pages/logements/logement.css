@@ -86,7 +86,7 @@
   align-items: center;
   border-radius: 14px;
   width: 195px;
-  height: 40px;
+  height: auto;
   font-size: 19px;
   font-weight: 400;
 }
@@ -123,7 +123,6 @@
 @media (max-width: 844px) {
   .container {
     margin: auto;
-    width: 145%;
   }
   .cardInfos {
     display: flex;
@@ -142,7 +141,6 @@
     margin-left: 1rem;
   }
   .logementTags > .logementTagItem {
-    margin: 15px 2px 0px 0px;
     background-color: #ff6060;
     color: #ffff;
     text-align: center;
@@ -151,8 +149,8 @@
     align-items: center;
     border-radius: 10px;
     width: 86px;
-    height: 34px;
-    font-size: 14px;
+    height: auto;
+    font-size: 10px;
     font-weight: 500;
   }
   .logementInfos2 {
@@ -181,9 +179,7 @@
     font-weight: 500;
     font-size: 20px;
   }
-  .city {
-    margin-left: -160px;
-  }
+
   .locationInfos > h1 {
     font-weight: 500;
     font-size: 25px;
@@ -194,49 +190,53 @@
     display: flex;
     flex-direction: column;
     justify-content: baseline;
-    margin-left: 60%;
+    margin-left: 25%;
     margin-top: 6rem;
     gap: 20px;
-    width: 140%;
+    width: 100%;
   }
 }
 @media (max-width: 500px) {
   .locationInfos {
     display: flex;
     flex-direction: column;
-    margin-left: 2.5rem;
+    margin-left: 6%;
   }
   .locationInfos > h1 {
     font-size: 18px;
+    width: 80%;
     font-family: "Montserrat" bold;
+    margin-left: -0.5rem;
   }
   .city {
     font-size: 14px;
     font-style: normal;
     align-items: center;
-    margin-left: 5px;
+    margin-left: -5px;
   }
   .logementTags > .logementTagItem {
     width: 84px;
     height: 18px;
-    margin-left: 2rem;
+
     margin-top: auto;
-    font-size: 10px;
+    font-size: 9px;
     border-radius: 5px;
-    line-height: 14px;
+  }
+  .logementTagItem li {
+    height: 1rem;
   }
   .logementTags {
     gap: 1px;
     margin-top: auto;
-    margin-left: 7px;
+    margin-left: 6%;
   }
   .logementInfos2 {
     display: flex;
     flex-direction: row;
-    margin-left: 10rem;
+    margin-left: 30%;
   }
   .starsList {
-    margin-left: -380px;
+    margin-left: -355px;
     width: 3rem;
     height: 1rem;
   }

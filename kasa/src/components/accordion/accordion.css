@@ -65,6 +65,9 @@
 }
 
 @media (max-width: 500px) {
+  * .accordions_ {
+    margin-bottom: 20px;
+  }
   .accordeon {
     display: flex;
     margin-left: 3rem;
