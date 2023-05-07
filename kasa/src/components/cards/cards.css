@@ -1,12 +1,15 @@
 .cards_bg {
-  width: 1240px;
-  margin-bottom: 2rem;
+  display: grid;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
   border-radius: 25px;
   background-color: #f7f7f7;
   border-radius: 25px;
-  display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   justify-content: center;
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
 }
 
 .card {
@@ -16,9 +19,8 @@
   border-radius: 10px;
   display: flex;
   justify-content: space-around;
-  margin-bottom: 3rem;
-  margin-left: 2.5rem;
-  margin-top: 3rem;
+  margin: auto;
+  margin-top: 2rem;
   transition: transform 0.2s;
 }
 .card:hover {
@@ -45,20 +47,19 @@
   color: #ffffff;
 }
 
-@media (max-width: 844px) {
+@media (max-width: 768px) {
   .cards_bg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: #ffffff;
-    width: 70%;
-    margin-left: 20%;
-    margin-top: 5rem;
     grid-template-columns: 1fr;
   }
   .card {
-    width: 335px;
-    height: 255px;
+    width: 355px;
+    height: 315px;
     border-radius: 10px;
-    position: relative;
-    margin-bottom: auto;
+    margin-left: auto;
   }
   .title {
     width: auto;
@@ -68,16 +69,28 @@
 
 @media (max-width: 500px) {
   .cards_bg {
-    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    width: 100%;
   }
 }
 @media (840px <= width <= 1250px) {
   .cards_bg {
     grid-template-columns: 1fr 1fr;
   }
-  .cards_bg a {
-    position: relative;
-    display: flex;
-    justify-content: baseline;
+}
+
+/* VERSION TABLETTE */
+
+@media (768px <= width <= 1024px) {
+  .cards_bg {
+    display: grid;
+    flex-direction: column;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    margin: auto;
+    width: auto;
   }
 }

@@ -3,17 +3,6 @@ body {
   margin: auto;
 }
 
-.accordions {
-  margin-bottom: 10rem;
-  margin-top: 5rem;
-  margin-left: -35%;
-  width: 170%;
-  padding-bottom: 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 @media (min-width: 551px) and (max-width: 1020px) {
   .accordeon {
     width: 55%;

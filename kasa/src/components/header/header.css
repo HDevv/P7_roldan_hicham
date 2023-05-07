@@ -1,9 +1,12 @@
 .header {
+  margin: auto;
   display: flex;
+  flex-direction: row;
   align-items: center;
   color: #ff6060;
   font-weight: 700;
   gap: 2rem;
+  width: 100%;
 
   @media screen and (width <= 768px) {
     text-transform: uppercase;
@@ -22,7 +25,7 @@
   }
 }
 .accueil {
-  width: 48%;
+  width: auto;
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -32,7 +35,6 @@
   text-align: center;
   color: #ff6060;
   justify-content: end;
-  margin-right: 3rem;
 }
 .accueil a {
   font-weight: 500;
@@ -40,17 +42,19 @@
 .accueil a:hover {
   text-decoration-line: underline;
 }
+.logo {
+  margin: auto;
+  width: auto;
+  padding-left: 1rem;
+}
 .a_propos {
   display: flex;
   align-items: flex-end;
-  text-align: center;
   color: #ff6060;
-  width: fit-content;
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
   line-height: 142.6%;
-  justify-content: center;
 }
 .a_propos:hover {
   text-decoration-line: underline;
@@ -58,46 +62,46 @@
 
 @media (max-width: 844px) {
   .header {
+    display: flex;
+    flex-direction: row;
     margin: auto;
-    width: auto;
+    width: 100%;
   }
   .logo img {
     width: 38%;
   }
-  .logo {
-    padding-left: 1rem;
+  .a_propos {
+    white-space: nowrap;
+    font-size: 20px;
+  }
+  .accueil {
+    font-size: 20px;
   }
   .nav {
     width: 30px;
-  }
-  .accueil {
-    margin-right: 20px;
   }
 }
 
 @media (max-width: 500px) {
   .header {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
     width: 100%;
-    gap: 0;
   }
   .logo {
-    width: 10rem;
-    margin-left: 1rem;
+    width: 12rem;
   }
   .accueil {
     font-size: 12px;
-    justify-content: end;
   }
   .a_propos {
     font-size: 12px;
-    justify-content: center;
-    margin-right: 4rem;
     white-space: nowrap;
   }
 }
-
-@media (max-width: 1240px) {
-  .logo {
-    padding-left: 1rem;
+@media (max-width: 1280px) {
+  .a_propos {
+    margin-right: 1rem;
   }
 }

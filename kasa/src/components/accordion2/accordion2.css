@@ -1,60 +1,67 @@
-.accordeon2 {
+.accordions2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 1rem;
+  width: auto;
   margin: auto;
-  margin-left: 9%;
-
-  margin-bottom: 20px;
+  margin-bottom: 1.2rem;
+}
+.accordeon2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 2rem;
 }
 
 .accordeon2_header {
   display: flex;
-  justify-content: space-between;
+  flex-direction: row;
   align-items: center;
   background: #ff6060;
   color: white;
-  width: 1023px;
+  width: 1024px;
   height: 47px;
-  align-items: center;
   cursor: pointer;
-  border: 0;
   border-radius: 8px;
 }
 .accordeon2_header h3 {
   padding-left: 10px;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 24px;
 }
 
-.icone {
-  width: 10px;
+.icone2 {
   transform: rotate(-180deg);
   transition: transform 0.2s ease-in-out;
-  margin-right: 16px;
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  justify-content: end;
 }
 
-.icone_ouverte {
+.icone2_ouverte {
   transition: transform 0.2s ease-in-out;
   transform: rotate(0deg);
   cursor: pointer;
-  margin-right: 16px;
 }
 
 .accordeon2_content {
   background-color: #f7f7f7;
   color: #ff6060;
-  line-height: 18px;
+  margin: auto;
   padding-left: 2px;
   padding-right: 2px;
-  width: 90%;
+  width: 1023px;
+  border-radius: 5px;
 }
 .accordeon2_content ul {
   display: flex;
   flex-direction: column;
   margin: auto;
-  margin-left: -25px;
-  width: 90%;
   padding-top: 8px;
   padding-bottom: 1rem;
-  font-size: 17px;
+  font-size: 24px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -72,25 +79,35 @@
   list-style: none !important;
 }
 
-@media (max-width: 840px) {
+/* TABLETTE */
+@media (max-width: 1024px) {
   .accordeon2 {
-    margin-top: 4rem;
-    width: 30rem;
-    margin-left: -2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 3re;
+    height: 100%;
   }
-  .accordeon2_content {
-    width: 60rem;
+  .accordeon2_header {
+    margin: auto;
+    width: 90%;
   }
 }
 
+/* MOBILE */
 @media (max-width: 500px) {
   .accordeon2 {
-    margin-top: 2rem;
-    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    margin: auto;
   }
   .accordeon2_header {
     width: 20rem;
-    height: 2.5rem;
+    height: 2rem;
   }
   .accordeon2_header h3 {
     font-size: 13px;
@@ -106,35 +123,5 @@
   }
   .accordeon2_content ul {
     font-size: 12px;
-  }
-}
-
-@media (600px <= width <= 1260px) {
-  .accordeon2_header {
-    width: auto;
-  }
-
-  .accordeon2_content {
-    width: auto;
-  }
-
-  .accordions2 {
-    margin: auto;
-    padding-left: 10rem;
-  }
-}
-@media (840px <= width <= 1260px) {
-  .accordions2 {
-    margin: auto;
-    padding: 0 9rem 0 2rem;
-  }
-}
-
-@media (500px <= width <= 800px) {
-  .accordions2 {
-    width: auto;
-    margin: auto;
-    padding-left: 5rem;
-    padding-right: 5rem;
   }
 }

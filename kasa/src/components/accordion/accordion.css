@@ -1,18 +1,21 @@
 .accordeon {
-  width: 50%;
-  margin-bottom: 20px;
+  margin: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .accordeon_header {
+  margin: auto;
   display: flex;
-  justify-content: space-between;
+  flex-direction: row;
   align-items: center;
   background: #ff6060;
   color: white;
+  width: 582px;
   height: 60px;
-  align-items: center;
   cursor: pointer;
-  border: 0;
   border-radius: 8px;
 }
 .accordeon_header h3 {
@@ -25,7 +28,6 @@
   width: 20px;
   transform: rotate(-180deg);
   transition: transform 0.2s ease-in-out;
-  margin-right: 16px;
 }
 
 .icone_ouverte {
@@ -36,19 +38,21 @@
 }
 
 .accordeon_content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background-color: #f7f7f7;
   color: #ff6060;
   line-height: 24px;
   padding-left: 2px;
   padding-right: 2px;
-  width: 100%, i !important;
+  width: auto;
 }
 .accordeon_content ul {
   display: flex;
   flex-direction: column;
   align-items: baseline;
-  text-align: justify;
-  margin: 1px 8px 20px -19px;
+
   padding-top: 8px;
   font-size: 18px;
   font-style: normal;
@@ -58,33 +62,26 @@
 }
 
 .accordeon_content_hidden {
-  height: 0px;
+  overflow: hidden;
 }
 .accordeon_content_hidden ul {
   opacity: 0;
 }
 
 @media (max-width: 500px) {
-  .accordions_ {
-    margin-bottom: 20px;
-  }
   .accordeon {
     display: flex;
-    margin-left: 3rem;
-    margin-bottom: 3rem;
+    flex-direction: column;
+    width: auto;
   }
-  .hostPicture {
-    margin-left: -10px;
-  }
+
   .accordeon_content {
     width: 72%;
-    margin-left: -65px;
   }
   .accordeon_header {
     width: 335px;
     height: 30px;
     position: absolute;
-    margin-top: -20px;
   }
   .accordeon_header h3 {
     font-size: 18px;
@@ -92,8 +89,12 @@
 }
 
 @media (max-width: 840px) {
+  .accordeon {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+  }
   .accordeon_header {
-    margin-left: -4rem;
     width: 80%;
   }
 }
