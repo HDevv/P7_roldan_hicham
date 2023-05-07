@@ -9,16 +9,17 @@
   text-decoration: none;
 }
 .cardInfos {
-  margin: auto;
   display: flex;
   align-items: center;
-  width: 100%;
+  width: auto;
   flex-direction: row;
   padding-top: 2rem;
+  gap: 90px;
 }
 
 .logementInfos {
   margin: auto;
+  width: auto;
   font-size: 30px;
   display: flex;
   flex-direction: column;
@@ -26,6 +27,7 @@
 
 .logementInfos2 {
   margin: auto;
+  width: auto;
   font-size: 30px;
   display: flex;
   flex-direction: column;
@@ -34,6 +36,7 @@
 .locationInfos > h1 {
   color: #ff6060;
   margin: auto;
+  width: auto;
   font-family: "Montserrat" bold;
   font-size: 36px;
   font-weight: 400;
@@ -85,6 +88,7 @@
   height: 34px;
   font-size: 17px;
   font-weight: 400;
+  margin-right: 1rem;
 }
 
 .starsList {
@@ -95,6 +99,13 @@
   width: 35px;
   padding-right: 8px;
   height: auto;
+}
+.accordions_ {
+  display: flex;
+  flex-direction: row;
+  padding-top: 2rem;
+  padding-right: 6%;
+  width: 79%;
 }
 
 @media (max-width: 844px) {
@@ -118,6 +129,7 @@
     flex-direction: row;
     margin: auto;
     padding: 6px;
+    padding-left: 2rem;
   }
   .logementTags > .logementTagItem {
     background-color: #ff6060;
@@ -213,5 +225,12 @@
 
   .hostInfos p {
     font-size: 12px;
+  }
+}
+@media (max-width: 1250px) {
+  .accordions_ {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
   }
 }
