@@ -70,7 +70,7 @@
 
 @media (max-width: 500px) {
   .slider {
-    width: 335px;
+    width: 90%;
     height: 255px;
     margin: auto;
     margin-left: 6%;
