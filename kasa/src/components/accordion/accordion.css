@@ -63,6 +63,16 @@
   display: none;
 }
 
+/*------------------BOUT--------------*/
+
+.accordions2 > .accordion_header {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  margin: auto;
+  width: 100%;
+}
+
 @media (max-width: 500px) {
   .accordeon {
     display: flex;

@@ -107,6 +107,6 @@
 @media (min-width: 1025px) {
   .card_img {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
   }
 }

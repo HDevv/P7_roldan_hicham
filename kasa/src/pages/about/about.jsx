@@ -3,7 +3,7 @@ import "../about/about.css";
 import Banner from "../../components/banner/banner";
 import BgAbout from "../../assets/bg_banner_about.png";
 import "../about/about.css";
-import Accordion2 from "../../components/accordion2/accordion2.jsx";
+import Accordion from "../../components/accordion/accordion.jsx";
 import Chevron from "../../assets/chevron.png";
 
 const about = () => {
@@ -12,7 +12,7 @@ const about = () => {
       <Banner src={BgAbout} alt="Paysage montagnard" />
 
       <div className="accordions2">
-        <Accordion2
+        <Accordion
           src={Chevron}
           title="Fiabilité"
           content="Les annonces postées sur Kasa garantissent une fiabilité totale. Les photos sont
@@ -20,20 +20,20 @@ const about = () => {
               par nos équipes"
         />
 
-        <Accordion2
+        <Accordion
           title="Respect"
           content="La bienveillance fait partie des valeurs fondatrices de Kasa. Tout comportement
               discriminatoire ou de perturbation du voisinage entraînera une exclusion de
               notre plateforme."
         />
 
-        <Accordion2
+        <Accordion
           title="Service"
           content="Nos équipes se tiennent à votre disposition pour vous fournir une expérience
               parfaite. N'hésitez pas à nous contacter si vous avez la moindre question.."
         />
 
-        <Accordion2
+        <Accordion
           title="Sécurité"
           content="La sécurité est la priorité de Kasa. Aussi bien pour nos hôtes que pour les
               voyageurs, chaque logement correspond aux critères de sécurité établis par nos
