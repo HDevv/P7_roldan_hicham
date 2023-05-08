@@ -103,13 +103,17 @@
 .accordions_ {
   display: flex;
   flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
   max-width: 100%;
   padding-top: 2rem;
   padding-bottom: 2rem;
-  width: 67%;
 }
 
 @media (max-width: 844px) {
+  .accordeon {
+    width: 100%;
+  }
   .container {
     width: 100%;
     display: flex;
@@ -243,7 +247,7 @@
   }
   .accordions_ {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     width: auto;
     margin: auto;
@@ -266,9 +270,9 @@
   .accordions_ {
     margin: auto;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
-    width: auto;
+    width: 100%;
     gap: 0;
   }
 }

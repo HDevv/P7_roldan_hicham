@@ -1,10 +1,14 @@
+.accordeon {
+  width: 45%;
+}
+
 .accordeon_header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   background: #ff6060;
   color: white;
-  width: 570px;
+  width: 100%;
   height: 60px;
   cursor: pointer;
   border-radius: 8px;
@@ -36,7 +40,7 @@
   color: #ff6060;
   line-height: 24px;
   padding-left: 1rem;
-  margin-right: 8.5rem;
+  width: 570px;
   border-radius: 5px;
   max-width: 100%;
 }
@@ -56,7 +60,7 @@
   overflow: hidden;
 }
 .accordeon_content_hidden ul {
-  opacity: 0;
+  display: none;
 }
 
 @media (max-width: 500px) {
@@ -90,7 +94,7 @@
     overflow: hidden;
   }
   .accordeon_content_hidden ul {
-    opacity: 0;
+    display: none;
   }
 }
 
@@ -99,7 +103,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: auto;
+    width: 100%;
     margin: auto;
   }
   .accordeon_header {
@@ -110,8 +114,7 @@
   .accordeon {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    width: auto;
-    margin: auto;
+    align-items: flex-start;
+    width: 40%;
   }
 }
