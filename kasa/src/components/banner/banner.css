@@ -3,8 +3,6 @@
   width: 1240px;
   justify-content: center;
   margin-top: 1rem;
-  margin-bottom: 3%;
-  padding-bottom: 1.5rem;
 }
 .hero {
   width: 100%;
@@ -31,11 +29,9 @@
 
 @media (max-width: 844px) {
   .banner {
-    width: 80%;
-    height: 111px;
-    margin: auto;
+    width: 100%;
+    height: auto;
     border-radius: 10px;
-    margin-bottom: 2rem;
   }
   .hero {
     display: flex;
@@ -63,10 +59,6 @@
     margin-bottom: -1rem;
   }
 
-  .img {
-    height: 110px;
-  }
-
   .banner_title {
     margin-left: 1rem;
     font-size: 24px;
@@ -77,8 +69,15 @@
 }
 @media (828px <= width <= 1300px) {
   .banner {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .banner {
     width: 90%;
-    margin: auto;
-    margin-bottom: 2rem;
+  }
+  .img {
+    height: 110px;
   }
 }
