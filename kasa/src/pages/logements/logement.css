@@ -11,7 +11,7 @@
 .cardInfos {
   display: flex;
   align-items: center;
-  width: auto;
+  width: 100%;
   flex-direction: row;
   padding-top: 2rem;
   gap: 150px;
@@ -35,7 +35,6 @@
 
 .locationInfos > h1 {
   color: #ff6060;
-  margin: auto;
   width: auto;
   font-family: "Montserrat" bold;
   font-size: 36px;

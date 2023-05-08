@@ -4,7 +4,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  position: relative;
+  width: 100%;
+  margin: auto;
 }
 h2 {
   font-family: "Montserrat", sans-serif;
@@ -12,63 +13,45 @@ h2 {
   font-size: 288px;
   font-weight: 900;
   color: #ff6060;
-  margin-top: auto;
 }
 .txt2 {
-  margin: -10rem 2rem 8rem 2rem;
   font-family: "Montserrat" 400;
   font-size: 36px;
   color: #ff6060;
+  margin: auto;
 }
 .go_back {
-  margin-bottom: 8rem;
   font-family: "Montserrat" bold;
-  font-style: normal;
-  font-weight: normal;
   font-size: 22px;
   line-height: 142.6%;
   text-decoration-line: underline;
   color: #ff6060;
+  padding-top: 14rem;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
   .err {
-    margin: 8rem 2rem 4rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10rem;
   }
-
   .notfound {
     font-size: 96px;
+    padding-bottom: 1.5rem;
   }
 
-  .txt {
-    margin: 0rem 0rem 6rem 0rem;
+  .txt2 {
+    display: flex;
+    flex-direction: column;
     text-align: center;
+
     font-size: 18px;
+    width: 70%;
   }
 
   .go_back {
-    margin-bottom: 8rem;
     font-size: 14px;
-  }
-}
-
-@media (min-width: 481px) and (max-width: 892px) {
-  .err {
-    margin: 8rem 2rem 4rem 2rem;
-  }
-
-  .notfound {
-    font-size: 200px;
-  }
-
-  .txt {
-    margin: 4rem 2rem 8rem 2rem;
-    text-align: center;
-    font-size: 18px;
-  }
-
-  .go_back {
-    margin-bottom: 8rem;
-    font-size: 14px;
+    padding-top: 9rem;
   }
 }
