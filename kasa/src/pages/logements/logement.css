@@ -220,7 +220,7 @@
   .logementTags {
     max-width: 100%;
     padding: 0;
-    padding-right: 2rem;
+    padding-right: 3.5rem;
   }
   .logementInfos2 {
     display: flex;
@@ -240,7 +240,6 @@
     padding: 0;
     margin: auto;
     width: 100%;
-    gap: 0;
   }
   .accordions_ {
     display: flex;
@@ -288,7 +287,8 @@
     display: flex;
     flex-direction: column;
     align-items: baseline;
-    width: 100%;
+    width: 99%;
+    margin: auto;
   }
   .logementInfos {
     display: flex;
@@ -305,7 +305,11 @@
     display: flex;
     flex-direction: row;
     align-items: baseline;
-    padding-right: 9rem;
+    width: auto;
+    padding-bottom: 1rem;
+  }
+  .logementTagItem {
+    margin: auto;
   }
   .logementInfos2 {
     display: flex;

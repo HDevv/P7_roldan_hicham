@@ -1,6 +1,5 @@
 .accordeon_header {
   display: flex;
-
   justify-content: space-between;
   align-items: center;
   background: #ff6060;
@@ -33,13 +32,13 @@
 .accordeon_content {
   display: flex;
   flex-direction: column;
-  align-items: center;
   background-color: #f7f7f7;
   color: #ff6060;
   line-height: 24px;
   padding-left: 1rem;
-
+  margin-right: 8.5rem;
   border-radius: 5px;
+  max-width: 100%;
 }
 .accordeon_content ul {
   display: flex;
@@ -69,7 +68,8 @@
   }
 
   .accordeon_content {
-    width: 72%;
+    width: 335px;
+    margin: auto;
   }
   .accordeon_header {
     width: 335px;
@@ -85,10 +85,20 @@
   .accordeon {
     display: flex;
     flex-direction: column;
+    align-items: center;
     width: auto;
     margin: auto;
   }
   .accordeon_header {
     display: flex;
+  }
+}
+@media (max-width: 1460px) {
+  .accordeon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    margin: auto;
   }
 }
