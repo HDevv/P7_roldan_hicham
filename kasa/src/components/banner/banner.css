@@ -77,6 +77,9 @@
   .banner {
     width: 90%;
   }
+  .banner_title {
+    width: 60%;
+  }
   .img {
     height: 110px;
   }
