@@ -54,6 +54,7 @@
     flex-direction: column;
     background-color: #ffffff;
     grid-template-columns: 1fr;
+    margin: auto;
   }
   .card {
     width: 90%;
@@ -86,6 +87,7 @@
   .cards_bg {
     grid-template-columns: 1fr 1fr;
     padding-top: 1rem;
+    margin: auto;
   }
 }
 
