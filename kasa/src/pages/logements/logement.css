@@ -14,7 +14,7 @@
   width: auto;
   flex-direction: row;
   padding-top: 2rem;
-  gap: 90px;
+  gap: 150px;
 }
 
 .logementInfos {
@@ -103,9 +103,10 @@
 .accordions_ {
   display: flex;
   flex-direction: row;
+  max-width: 100%;
   padding-top: 2rem;
-  padding-right: 6%;
-  width: 79%;
+  padding-bottom: 2rem;
+  width: 67%;
 }
 
 @media (max-width: 844px) {
@@ -120,7 +121,7 @@
   .cardInfos {
     display: flex;
     flex-direction: column;
-
+    gap: 0;
     margin: auto;
   }
 
@@ -176,7 +177,7 @@
     width: fit-content;
   }
 }
-@media (max-width: 500px) {
+@media (max-width: 768px) {
   .container {
     display: flex;
     flex-direction: column;
@@ -195,6 +196,7 @@
     font-family: "Montserrat" bold;
   }
   .cardInfos {
+    width: 100%;
     padding-left: 1rem;
     gap: 10px;
   }
@@ -223,10 +225,12 @@
   .logementInfos2 {
     display: flex;
     flex-direction: row-reverse;
-    margin-left: 1rem;
+    width: auto;
   }
   .starsList {
     margin: auto;
+    width: auto;
+    margin-right: 2rem;
   }
 
   .hostInfos p {
@@ -234,12 +238,83 @@
   }
   .hostInfos {
     padding: 0;
+    margin: auto;
+    width: 100%;
+    gap: 0;
+  }
+  .accordions_ {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    margin: auto;
+    padding: 0;
+    padding-top: 2rem;
   }
 }
-@media (max-width: 1250px) {
+@media (max-width: 1450px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .locationInfos {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+  }
   .accordions_ {
     margin: auto;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    width: auto;
+    gap: 0;
+  }
+}
+@media (max-width: 500px) {
+  .accordions_ {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+  }
+  .cardInfos {
+    gap: 0;
+    padding: 0;
+  }
+  .locationInfos {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    width: 100%;
+  }
+  .logementInfos {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .logementInfos h1 {
+    width: 100%;
+    padding-bottom: 4px;
+    padding-top: 0.5rem;
+  }
+  .logementTags {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    padding-right: 9rem;
+  }
+  .logementInfos2 {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin: auto;
+    width: auto;
+  }
+  .hostInfos {
+    gap: 1rem;
   }
 }
