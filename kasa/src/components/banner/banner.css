@@ -36,6 +36,7 @@
   .banner {
     width: 100%;
     border-radius: 10px;
+    height: auto;
   }
   .hero {
     display: flex;
@@ -43,7 +44,7 @@
     border-radius: 10px;
   }
   .banner img {
-    height: auto;
+    height: 160px;
   }
   .img {
     width: 100%;
