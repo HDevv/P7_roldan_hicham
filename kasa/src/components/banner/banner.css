@@ -1,6 +1,5 @@
 .banner {
   margin: auto;
-  height: 225px;
   width: 1240px;
   justify-content: center;
   margin-top: 1rem;
@@ -36,24 +35,25 @@
   .banner {
     width: 100%;
     border-radius: 10px;
-    height: auto;
   }
   .hero {
     display: flex;
     justify-content: flex-start;
     border-radius: 10px;
   }
-  .banner img {
-    height: 160px;
-  }
+
   .img {
     width: 100%;
     border-radius: 10px;
+    height: 225px;
   }
   .banner_title {
     font-size: 24px;
     width: 50%;
     padding: 1rem;
+  }
+  .banner img {
+    height: 225px;
   }
 }
 
@@ -88,7 +88,7 @@
   .banner_title {
     width: 60%;
   }
-  .img {
-    height: 110px;
+  .banner img {
+    height: 150px;
   }
 }
