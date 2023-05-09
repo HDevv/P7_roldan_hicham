@@ -40,6 +40,7 @@ body {
     align-items: center;
     margin: auto;
     width: 90%;
+    padding-top: 0;
   }
   .accordions2 > .accordeon > .accordeon_header {
     height: 2.5rem;
