@@ -1,5 +1,4 @@
 .container {
-  margin: auto;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -10,15 +9,13 @@
 }
 .cardInfos {
   display: flex;
-  align-items: center;
   width: 100%;
   flex-direction: row;
   padding-top: 2rem;
-  gap: 150px;
+  justify-content: space-between;
 }
 
 .logementInfos {
-  margin: auto;
   width: auto;
   font-size: 30px;
   display: flex;
@@ -26,7 +23,6 @@
 }
 
 .logementInfos2 {
-  margin: auto;
   width: auto;
   font-size: 30px;
   display: flex;
