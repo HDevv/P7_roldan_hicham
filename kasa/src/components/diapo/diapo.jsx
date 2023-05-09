@@ -36,6 +36,7 @@ export default function Slideshow({ slides }) {
           ""
         )}
 
+        {/* montre l'img à l'index actuel */}
         <article className="slide active" key={slides}>
           <img src={slides[currentIndex]} className="logementImg" />
         </article>

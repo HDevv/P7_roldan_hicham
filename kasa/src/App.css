@@ -11,6 +11,10 @@
   align-items: center;
   height: 100%;
 }
+body {
+  padding-left: 50px;
+  padding-right: 50px;
+}
 
 .header,
 .App {

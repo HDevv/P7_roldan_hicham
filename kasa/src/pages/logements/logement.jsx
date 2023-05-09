@@ -28,6 +28,7 @@ const Logements = () => {
 
               <div>
                 <ul className="logementTags">
+                  {/* map qui va afficher une li pour chaque balise */}
                   {logement.tags.map((tag) => (
                     <li className="logementTagItem" key={tag + logement.id}>
                       {tag}

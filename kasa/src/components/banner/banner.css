@@ -1,5 +1,6 @@
 .banner {
   margin: auto;
+  height: 225px;
   width: 1240px;
   justify-content: center;
   margin-top: 1rem;
@@ -11,6 +12,10 @@
   align-items: center;
   border-radius: 25px;
   background: rgb(0, 0, 0);
+}
+
+.banner img {
+  height: 225px;
 }
 .img {
   width: 100%;
@@ -30,13 +35,15 @@
 @media (max-width: 844px) {
   .banner {
     width: 100%;
-    height: auto;
     border-radius: 10px;
   }
   .hero {
     display: flex;
     justify-content: flex-start;
     border-radius: 10px;
+  }
+  .banner img {
+    height: auto;
   }
   .img {
     width: 100%;
