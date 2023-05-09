@@ -127,13 +127,16 @@
     gap: 0;
     margin: auto;
   }
+  .logementInfos {
+    width: 100%;
+  }
 
   .logementTags {
     display: flex;
     flex-direction: row;
-    margin: auto;
+
     padding: 6px;
-    padding-left: 2rem;
+    padding-left: 1.5rem;
   }
   .logementTags > .logementTagItem {
     background-color: #ff6060;
@@ -150,7 +153,6 @@
   .logementInfos2 {
     display: flex;
     flex-direction: row-reverse;
-    align-items: center;
     margin-top: auto;
   }
   .hostInfos:has(p) {
@@ -183,7 +185,7 @@
 @media (max-width: 768px) {
   .container {
     display: flex;
-    flex-direction: column;
+
     width: 100%;
   }
   .locationInfos {
@@ -213,7 +215,6 @@
     height: 20px;
     font-size: 9px;
     border-radius: 5px;
-    margin: auto;
   }
   .logementTags ul {
     width: auto;
@@ -222,18 +223,19 @@
 
   .logementTags {
     max-width: 100%;
-    padding: 0;
-    padding-right: 3.5rem;
   }
   .logementInfos2 {
     display: flex;
     flex-direction: row-reverse;
-    width: auto;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
   }
   .starsList {
     margin: auto;
     width: auto;
-    margin-right: 2rem;
   }
 
   .hostInfos p {
@@ -246,41 +248,22 @@
   }
   .accordions_ {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
-    width: auto;
-    margin: auto;
-    padding: 0;
-    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  .accordeon {
+    width: 100%;
+    padding-bottom: 3rem;
   }
 }
-@media (max-width: 1450px) {
-  .container {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-  }
-  .locationInfos {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    margin: auto;
-  }
-  .accordions_ {
-    margin: auto;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    width: 100%;
-    gap: 0;
-  }
-}
+
 @media (max-width: 500px) {
   .accordions_ {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: auto;
+    width: 100%;
   }
   .cardInfos {
     gap: 0;
@@ -290,7 +273,7 @@
     display: flex;
     flex-direction: column;
     align-items: baseline;
-    width: 99%;
+    padding-left: rem;
     margin: auto;
   }
   .logementInfos {
@@ -304,7 +287,6 @@
     padding-top: 0.5rem;
   }
   .logementTags {
-    margin: auto;
     display: flex;
     flex-direction: row;
     width: 60%;
@@ -324,3 +306,9 @@
     gap: 1rem;
   }
 }
+/* @media (min-width: 845px) {
+  .accordions_ {
+    display: flex;
+    flex-direction: column;
+  }
+} */

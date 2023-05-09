@@ -114,17 +114,13 @@
     flex-direction: column;
     align-items: center;
     width: 100%;
-    margin: auto;
   }
   .accordeon_header {
     display: flex;
+    width: 90%;
   }
-}
-@media (max-width: 1460px) {
-  .accordeon {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    width: 40%;
+  .accordeon_content {
+    width: 90%;
+    margin: auto;
   }
 }
