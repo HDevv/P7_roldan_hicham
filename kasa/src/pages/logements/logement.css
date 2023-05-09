@@ -307,8 +307,7 @@
     margin: auto;
     display: flex;
     flex-direction: row;
-    align-items: baseline;
-    width: auto;
+    width: 60%;
     padding-bottom: 1rem;
   }
   .logementTagItem {
