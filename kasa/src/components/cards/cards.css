@@ -46,6 +46,7 @@
   font-size: 22px;
   line-height: 142.6%;
   color: #ffffff;
+  padding-bottom: 4px;
 }
 
 @media (max-width: 768px) {
@@ -58,12 +59,8 @@
   }
   .card {
     width: 90%;
-    height: 315px;
+
     border-radius: 10px;
-    margin-left: auto;
-  }
-  .card_img {
-    width: 100%;
   }
   .title {
     width: auto;
@@ -105,8 +102,7 @@
 }
 
 @media (min-width: 1025px) {
-  .card_img {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+  .card {
+    width: 90%;
   }
 }
