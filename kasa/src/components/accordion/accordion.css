@@ -84,7 +84,7 @@
   }
 
   .accordeon_content {
-    width: 335px;
+    width: 100%;
     margin: auto;
   }
   .accordeon_content ul {
@@ -121,6 +121,5 @@
   }
   .accordeon_content {
     width: 90%;
-    margin: auto;
   }
 }

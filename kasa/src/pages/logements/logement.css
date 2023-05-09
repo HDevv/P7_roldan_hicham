@@ -289,7 +289,7 @@
   .logementTags {
     display: flex;
     flex-direction: row;
-    width: 60%;
+    width: 70%;
     padding-bottom: 1rem;
   }
   .logementTagItem {
