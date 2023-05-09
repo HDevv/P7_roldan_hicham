@@ -25,6 +25,7 @@ body {
 }
 .accordions2 > .accordeon > .accordeon_content {
   display: flex;
+  width: 100%;
 }
 
 @media (max-width: 500px) {
