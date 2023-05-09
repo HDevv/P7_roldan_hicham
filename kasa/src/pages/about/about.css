@@ -9,7 +9,7 @@ body {
   align-items: center;
   width: 100%;
 
-  padding-top: 4rem;
+  padding-top: 6rem;
 }
 .accordions2 > .accordeon {
   display: flex;
@@ -17,8 +17,6 @@ body {
   align-self: center;
   margin: auto;
   width: 90%;
-
-  padding-top: 2rem;
 }
 .accordions2 > .accordeon > .accordeon_header {
   height: 3rem;
@@ -41,7 +39,6 @@ body {
     align-items: center;
     margin: auto;
     width: 90%;
-    height: auto;
   }
   .accordions2 > .accordeon > .accordeon_header {
     height: 2.5rem;
