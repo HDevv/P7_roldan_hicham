@@ -1,6 +1,6 @@
 
 
-<h1>KASA</h1>
+<h1>KASA 🏠</h1>
 <hr><p>Application de location immobilière avec REACT</p><h2>Technologies Utilisées</h2>
 <hr><ul>
 <li>HTML</li>
